@@ -1,5 +1,4 @@
 import World from "./world";
-
-const root = document.getElementById("root");
-const world = new World("Hellow World！！");
+const root: HTMLElement | null = document.getElementById("root");
+const world = new World("Hello World!!!");
 world.sayHello(root);
