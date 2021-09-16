@@ -1,7 +1,12 @@
+/* eslint-disable no-undef */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.ts',
+
+  entry: {
+    bundle: './src/index.ts',
+  },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
