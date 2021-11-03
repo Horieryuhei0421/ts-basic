@@ -33,5 +33,9 @@
     "src/**/*.{js,jsx,ts,tsx}": [
       "npm run lint-fix"
     ]
-  }
+  },
+  "eslintIgnore": [
+    ".eslintrc.js",
+    "dist/bundle.js"
+  ]
 }
