@@ -29,7 +29,13 @@
 // typeAliasSample()
 
 // 「配列とタプルの型定義」
-import arraySample from './array/array'
-import tupleSample from './array/tuple'
-arraySample()
-tupleSample()
+// import arraySample from './array/array'
+// import tupleSample from './array/tuple'
+// arraySample()
+// tupleSample()
+
+// 「ジェネリック型とポリモーフィズム」
+import genericsSample from './generics/basic'
+import advancedSample from './generics/advanced'
+genericsSample()
+advancedSample()
